@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: white;
+    font-size: 16px;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color: #fff;
+    height: 60px;
+    font-size: 16px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.bottom{
+    background-color: #1A73E8;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 18px;
+}
+
+.bottom:hover{
+    background-color: #1A73E8c4;
+}
+
+.link{
+    text-decoration: none;
+    padding-left: 10px;
+    color: #585A5B;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.img_logo{
+    width: 20%;
+}
+
+ion-icon {
+    font-size: 20px;
+    padding: 8px;
+    transition: .3s;
+}
+
+ion-icon:hover{
+    background-color: #6B7682;
+    border-radius: 20px;
+}
+
+.main{
+    background-color: white;
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pesquisa{
+    margin: 12px;
+    margin-bottom: 17px;
+    height: 40px;
+    min-width: 50vw;
+    max-width: 75vw;
+    border-radius: 20px;
+    border: 1px solid #dcdcdc;
+}
+
+.pesquisa:hover{
+    box-shadow: 2px 0px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.link_bnt{
+    font-size: 13px;
+    text-decoration: none;
+    background-color: #F8F9FA;
+    padding: 8px 20px 8px 20px;
+    color: #4B4A51;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.footer{
+    color: #6B7682;
+    background-color: #f2f2f2;
+    height: 60px;
+    border-bottom: 1px solid #DDDFE3;
+    font-size: 18px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+}
